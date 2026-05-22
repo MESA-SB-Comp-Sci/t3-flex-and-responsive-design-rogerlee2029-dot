@@ -11,11 +11,12 @@ header{
 
 .middle-section{
   /* Add height and width here */
-  background-color: lightpink;
-  height:20vh;
+  height:70vh;
   width:100vw;
   /* Add flex properties here */
   display:flex;
+  justify-content:flex-start;
+
   
 
 }
@@ -23,20 +24,25 @@ header{
 aside{
   /* Add height and width here */
   background-color: lightseagreen;
-  height:60vh;
-  width:25vw;
+  height:70vh;
+  width:20vw;
+  display:fle;
+  flex:;
 }
 
 .image-section{
   /* Add height and width here */
   background-color: aliceblue;
-  height:50vh;
-  width:50vw;
+  height:10vh;
+  width:35vw;
+
 
   /* Add flex properties here */
   display:flex;
   text-align:left;
   flex-direction: column;
+  flex:;
+  
   
 }
 
@@ -45,6 +51,10 @@ footer{
   background-color: lime;
   width:100vw;
   height:20vh;
+  display:flex;
+  align-items:flex-start;
+
+
 
 
 }
